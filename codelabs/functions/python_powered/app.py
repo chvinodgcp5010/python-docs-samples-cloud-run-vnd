@@ -22,4 +22,4 @@ app = flask.Flask(__name__)
 
 @app.route("/")
 def index():
-    return main.python_powered(flask.request)
+    return main.hello_name(flask.request)
